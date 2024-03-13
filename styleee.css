@@ -1,0 +1,369 @@
+@font-face{
+    font-family:babyla;
+    src:url(css/fonts/Babyla-YzLAL.woff); 
+   }
+
+@font-face{
+	font-family: LovelyCute;
+	src:url(css/fonts/LovelyCute-Ead1r.woff);
+}
+
+@font-face{
+	font-family:SweetGetawayDemoRegular;
+	src: url(css/fonts/SweetGetawayDemoRegular-2XyK.woff);
+}
+
+@font-face{
+	font-family:Scripto;
+	src: url(css/fonts/Scripto-2OR2v.woff); 
+}
+
+@font-face{
+	font-family: Queasilyregular;
+	src:url(css/fonts/QueasilyRegular-YzeDj.woff);
+}
+
+@font-face{
+	font-family: Quiltpatches;
+	src:url(css/fonts/Quiltpatches-OVoaO.woff);
+}
+
+
+
+body{
+	margin:50px;
+	background: rgba(255, 222 , 222, 1);
+	padding:50px;
+} 
+
+.first{
+	background-image: url("img/pinkcupcakes.jpg");
+	background-size: cover;
+	margin: 0px;
+}
+
+.third-heading{
+	font-family:"Madimi One";
+	font-size:20pt;
+	color: rgba(254,163, 163, 1.0);
+	text-align: center;
+	margin-top:-80px;
+	margin-bottom: 100px;
+}
+
+
+.cupcakes h5{
+	font-size: 40pt;
+	font-family:"Madimi One";
+	color: rgba(64, 33, 22, 1.0);
+	text-align: center;
+	margin-top: 0px;
+
+}
+
+.cupcakes h6{
+	font-family:"Madimi One";
+	font-size: 15pt;
+	color:rgba(254, 163, 163, 1.0)
+	  }
+
+.centered {
+	text-align:center;
+	font-family: Lovleycute;
+
+
+}
+
+.centered h4{
+	font-family: LovelyCute;
+	font-size: 20pt;
+	color: rgba(255, 255, 255, 1.0);
+	background-color:rgba(75, 197, 250, 1.0);
+	display:inline-block;
+  padding:0px 60px;
+  border-radius:50px;
+  margin-top: 130px; 
+
+
+}
+
+
+.pos_cen{
+	font-family:"Madimi One";
+	max-width: 700px;
+	background-color: rgba(255, 255, 255, 0.7);
+	padding: 30px;
+	display:block;
+	margin: 50px auto;
+}
+
+h7{
+	font-size: 20pt;
+}
+
+.recipe-block{
+	display:flex;
+	padding:0;
+}
+
+
+.img_deg img{
+	width: 200px;
+	height:auto;
+	margin-right:10px;
+}
+
+.recipe-block h7{
+	padding: px;
+}
+  	
+
+    h3{ 
+            font-family: !important;
+            font-size: 20pt;
+            color: rgba(255, 255, 255, 1.0);
+            text-align: center;
+              }
+
+        	.clicky img{
+        		text-align: center;
+        		margin-top:-600px;
+        	}
+			.clicky img{
+    		transition: transform 0.2s ease;
+    		}
+			.clicky:hover img{
+    		transform: scale(1.30);
+        	}
+
+        }
+
+	h5{
+  .Flavour{
+    	text-align: center;
+    
+
+
+
+	.done img{
+        	text-align: center;
+        	}
+			.done img{
+    		transition: transform 0.2s ease;
+    		}
+			.done:hover img{
+    		transform: scale(1.30);
+        	}
+  	  }
+}
+}
+
+h8{
+	.center{
+	font-family:Lovelycute;
+}
+  }
+
+
+  	
+  }
+  }
+
+
+
+
+body{
+	margin:50px;
+  }
+
+h1{        
+		font-family:Queasilyregular;
+     	color: rgba(255, 255, 255, 1.0);
+       	font-size: 100px;
+        background-color:rgba(75, 197, 250, 1.0);
+  		width:auto;
+  		display:inline-block;
+  		padding:60px 150px;
+   		border-radius:500px;
+		text-align: center;
+		margin-top: -40px;
+		text-align: center;
+	}
+
+
+    
+    h2{
+    	font-family:Quiltpatches;
+    	font-size: 200pt;
+    	color:rgba(64, 33, 22, 1.0);
+    	margin-top: -115px;
+    	text-align: center;
+    }    	
+
+
+
+  .container {
+  	font-family:LovelyCute;
+  	font-size: 40pt;
+  	color: rgba(255, 255, 255, 1.0);
+  	background-color:rgba(75, 197, 250, 1.0);
+  	width:auto;
+  	max-width:700px;
+  	padding:10px 60px;
+  	border-radius:50px;
+  	margin: 0px auto 90px auto;  
+  	text-align: center;	
+  }
+
+
+ .done {
+ 	margin-top: 50px;x
+ 	text-align: center;
+ }
+
+.recipe_list h5{
+	font-family:"Madimi One", sans-serif;
+	margin-left: 20px;
+	color: rgba(64, 33, 22, 1.0);
+	font-size: 20pt;
+	border-radius:20px;
+	text-align: center;
+	margin-top: 0;
+
+}
+
+h4{
+
+}
+
+
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);    
+    gap: 10px;
+	max-width:1000px;
+	margin:auto;
+}
+
+.photo-grid-second {
+   display: grid;
+ 	 grid-template-columns: repeat(4, 1fr);    
+ 	 gap: 10px;
+	max-width:1000px;
+	margin:auto;
+  }
+
+
+.image-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.image-list li {
+    margin-bottom: 10px; /* Add space between images */
+}
+
+.image-list img {
+    width: 200px; /* Set the width of the images */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 100px;
+}
+
+.image-list{
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.coffee-caption{
+	text-align: center;
+	position: relative;
+	top:0;
+	right:0;
+	background-color: rgba(255, 255, 255, 1.0);
+	padding: 20px;
+	border-radius: 30px;
+	margin-bottom: 50px;
+}
+
+  .selection {
+	background:#fea3a3;
+	border-radius:20px;
+	color:rgba(64, 33, 22, 1.0);
+	transition:all 0.2s;
+}
+
+.selection h5 {
+	padding: 0.75em 0.5em; 
+	margin:0;
+	font-weight:normal;
+	text-transform:uppercase;
+	font-size:20px;
+	line-height:1.2em;
+	text-align:center;
+	 font-family: "Madimi One", sans-serif;
+}
+
+
+.selection:hover,
+.selection.active {
+	color:#fea3a3;
+	background:rgba(64, 33, 22, 1.0);
+}
+
+
+
+.photo img {
+	width: 100%;
+    
+}
+
+.photo:hover {
+	opacity:0.5;
+
+}
+
+.caption{
+	text-align:center;
+	font-family:LovleyCute;
+	font-size: ;
+
+}
+
+
+.recipe_list {
+	display:none;
+}
+
+.recipe_list.active {
+	display:block;
+}
+
+.recipe_list-no_nuts_recipes {
+	display:none;
+}
+
+.recipe_list-no_nuts_recipes.active {
+	display:block;
+}
+
+  .coming-soon {
+	background:gray;
+	border-radius:20px;
+	color:rgba(64, 33, 22, 1.0);
+	transition:all 0.2s;
+
+
+}
+
+.coming-soon h5 {
+
+	padding: 0.75em 0.5em; 
+	margin:0;
+	
+	font-weight:normal;
+	text-transform:uppercase;
+	font-size:20px;
+	line-height:1.2em;
+	text-align:center;
+	 font-family: "Madimi One", sans-serif;
+}
