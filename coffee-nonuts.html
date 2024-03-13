@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>
+        TEST WEBSITE
+    </title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styleee.css"/> 
+
+</head>
+
+<body>
+
+<div class="container">
+    <div class="centered-block">
+        Accomidated recipes!
+    </div>
+</div>
+                                                        <!--
+                                                        -basis page for each restricted flavour. h5 flavour heading was changed, as well as links and photos for recipes. 
+                                                        - was kind of a pain, but was easy once i had the right format
+                                                        - had much trouble when seperating classes for styling
+                                                    -->
+
+<div class="cupcakes">   
+    <h5>Coffee Cupcakes ( no nuts )</h5>
+</div>
+<div class="third-heading">
+    <h5>click image for recipe</h5>
+</div>
+        
+<div class="pos_cen">
+
+    <div class="recipe-block">
+        <div class="img_deg">
+            <a href="https://charlotteslivelykitchen.com/coffee-cupcakes/#skip">
+            <img src="img/coffeenonut.png"/></a>
+        </div>
+        <h7> Nut-free Coffee Cupcakes</h7>
+        <p>
+            Delicious coffee cupcakes that are easy to make and packed full of coffee flavour. Perfect topped with coffee buttercream.
+        </p>
+    </div>
+
+</div>                                                  <!--
+                                                        -Went to each webite and copies name of recipe & first header 
+                                                    -->
+
+<div class="pos_cen">
+
+    <div class="recipe-block">
+        <div class="img_deg">
+            <a href="https://www.milehighmitts.com/gluten-free-coffee-cupcakes">
+            <img src="img/c-nonuts2.png"/><a href=""></a>
+        </div>
+        <h7> Mile High Mitts! </h7>
+        <p>
+            Loaded with coffee flavor, these gluten-free and nut-free Coffee Cupcakes are a simple and fast dessert that everyone loves. They’re great for an adult birthday or dinner party!
+        </p>
+
+    </div>
+
+</div>
+
+<!--
+<div class="pos_cen">
+
+    <div>
+        <img class="img_deg" src="img/coffeegluten.png"/>
+        <h7> Mile High Mitts: Gluten-free Coffee Cupcakes</h7>
+        <p>
+            Loaded with coffee flavor, these gluten-free Coffee Cupcakes are a simple and fast dessert that everyone loves. They’re great for an adult birthday or dinner party!
+        </p>
+    </div>
+
+</div>
+
+-->
+
+<!--
+<div class="pos_cen">
+    
+<img class="img_deg" src="img/soyfreecoffee.png">
+
+    <p>Light, delicious and easy coffee and walnut cupcakes with an easy coffee buttercream frosting!<p>
+
+</div>
+
+-->
+
+
+
+
+
+
+<!--
+<div>
+
+        <ul>
+            <li><a href="https:google.com"><h8><strong>Recipe 1</strong></a></li></h6>
+            <li><a href="https:google.com"><h8><strong>Recipe 2</strong></a></li></h6>
+            <li><a href="https:google.com"><h8><strong>Recipe 3</strong></a></li></h6>
+            <li><a href="https:google.com"><h8><strong>Recipe 4</strong></a></li></h6>
+            <li><a href="https:google.com"><h8><strong>Recipe 5</strong></a></li></h6>
+            <li><a href="https:google.com"><h8><strong>Recipe 6</strong></a></li></h6>
+        </ul>
+        </div>
+    </div>*/ 
+
+   
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script>
+    $(".selection").click(function(){
+        item = $(this).data("list");
+        
+
+        $(this).toggleClass("active")
+        $(item).toggleClass("active")
+    })
+</script>
+
+-->
+                                                            <!--
+                                                            -above section made by ali. original idea was to have recipe lists under the restrictions, which was left out since i wanted to incorporate flavour 
+                                                        -->
+</body>
+
+</html> 
