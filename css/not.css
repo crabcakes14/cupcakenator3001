@@ -1,0 +1,222 @@
+
+
+@font-face{
+    font-family: Superfunky;
+    src:url(fonts/SuperFunky-lgmWw.woff);
+
+    }
+
+@font-face{
+    font-family: purplemagic;
+    src:url(fonts/PurplemagicdemoSvg-x32mO.woff);
+   }     
+
+@font-face{
+    font-family:babyla;
+    src:url(fonts/Babyla-YzLAL.woff); 
+   }
+
+@font-face{
+	font-family: Lovleycute;
+	src:url(fonts/LovelyCute-Ead1r.woff);
+}
+
+@font-face{
+	font-family:SweetGetawayDemoRegular;
+	src: url(fonts/SweetGetawayDemoRegular-2XyK.woff);
+}
+
+@font-face{
+	font-family:Scripto;
+	src: url(fonts/Scripto-2OR2v.woff); 
+}
+
+@font-face{
+	font-family: Queasilyregular;
+	src:url(fonts/QueasilyRegular-YzeDj.woff);
+}
+
+@font-face{
+	font-family: Quiltpatches;
+	src:url(fonts/Quiltpatches-OVoaO.woff);
+}
+
+
+body{
+	background: rgba(255, 222 , 222, 1);
+
+} 
+
+.centered {
+	text-align:center;
+}
+	
+	h1{        
+		font-family:Queasilyregular;
+     	color: rgba(255, 255, 255, 1.0);
+       	font-size: 100px;
+        background-color:rgba(75, 197, 250, 1.0);
+  		width:auto;
+  		display:inline-block;
+  		padding:40px 100px;
+   		border-radius:300px;
+		text-align: center;
+		margin-top: 40px;
+		text-align: center;
+	}
+
+
+    
+    h2{
+    	font-family:Quiltpatches;
+    	font-size: 300pt;
+    	color:rgba(64, 33, 22, 1.0);
+    	margin-top: 0px;
+    	text-align: center;
+    }    	
+
+    h3{ 
+            font-family: !important;
+            font-size: 20pt;
+            color: rgba(255, 255, 255, 1.0);
+            margin-top: 0px;
+            text-align: center;
+              }
+
+        	.clicky img{
+        		text-align: center;
+        	}
+			.clicky img{
+    		transition: transform 0.2s ease;
+    		}
+			.clicky:hover img{
+    		transform: scale(1.30);
+        	}
+
+        }
+
+	h5{
+  .Flavour{
+    	text-align: center;
+    
+
+}
+
+
+
+h6{
+	font-family:SweetGetawayDemoRegular;
+	font-size: 100pt;
+	
+
+}
+
+
+
+	.done img{
+        	text-align: center;
+        	}
+			.done img{
+    		transition: transform 0.2s ease;
+    		}
+			.done:hover img{
+    		transform: scale(1.30);
+        	}
+
+     }
+[]
+	h8{
+ 		.Restrictions{
+  		font-family:Lovleycute;
+  		font-size: 40pt;
+  		color: rgba(255, 255, 255, 1.0);
+  		background-color:rgba(75, 197, 250, 1.0);
+  		width:auto;
+  		display:inline-block;
+  		padding:0px 70px;
+  		border-radius:100px;
+  	  }
+
+}
+
+
+  }
+
+  h9{
+  	.recipe-list{
+  		font-family: queasilyregular;
+  		font-size: 20pt;
+  	}
+  	
+  }
+
+
+
+
+
+body{
+
+background-image: url(https%3A%2F%2Fwww.pinterest.com%2Fpin%2Fan-outdoor-caf-in-budapest--494973815295931848%2F&psig=AOvVaw0iYoR27-L-1jMvCvexuICu&ust=1709165362500000&source=images&cd=vfe&opi=89978449&ved=0CBUQjhxqFwoTCKivl6TfzIQDFQAAAAAdAAAAABAf);
+background-size: cover;
+
+  }
+
+  .container {
+  	font-family:Lovleycute;
+  	font-size: 40pt;
+  	color: rgba(255, 255, 255, 1.0);
+  	background-color:rgba(75, 197, 250, 1.0);
+  	width:auto;
+  	display:inline-block;
+  	padding:0px 60px;
+  	border-radius:50px;
+  	margin-bottom: 100px;  	
+  }
+  .container{
+  	text-align: center;
+  }
+
+  .centered-block{
+  	display: inline-block;
+    text-align: center;
+  }
+
+
+ .done {
+ 	margin-top: 50px;
+ 	text-align: center;
+ }
+
+  
+
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);    
+    gap: 10px;
+	max-width:1000px;
+	margin:auto;
+    
+
+}
+
+
+.photo img {
+	width: 100%;
+	
+    
+}
+
+.photo:hover {
+	opacity:0.5;
+}
+
+.caption {
+	text-align:center;
+}
+
+
+
+
+
+	   
+  
